@@ -2,7 +2,6 @@
   "homepage": "http://vicyarmots.github.io/react-gh-pages",
   "name": "klika-tech",
   "version": "0.1.0",
-  "homepage": "http://gitname.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -11,9 +10,9 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "predeploy": "npm run build",
